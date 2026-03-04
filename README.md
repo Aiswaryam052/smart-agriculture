@@ -64,5 +64,42 @@ Yield = (0.48 × Temperature) + (0.63 × Humidity) + (1.1 × Soil Moisture) + 12
 
 ---
 
+---
+
+## ▶ How to Run the Project
+
+### 1️⃣ Install Software
+- Install Arduino IDE
+- Install ESP32 Board Package
+- Install Required Libraries:
+  - Blynk
+  - DHT Sensor Library
+  - Adafruit Unified Sensor
+
+---
+
+### 3️⃣ Upload Code
+1. Open project in Arduino IDE  
+2. Select Board → ESP32 Dev Module  
+3. Select correct COM Port  
+4. Click Upload  
+
+---
+
+### 4️⃣ View Output
+- Open Serial Monitor  
+- Set baud rate to 115200  
+- Monitor temperature, humidity, soil moisture, and predicted yield  
+
+---
+
+### 5️⃣ View in Blynk App
+- Add Virtual Pins:
+  - V0 → Temperature
+  - V1 → Humidity
+  - V2 → Soil Moisture
+  - V3 → Yield Prediction
+
+
 ## 👩‍💻 Developed By
 Aiswarya M  
